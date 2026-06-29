@@ -1,0 +1,21 @@
+{
+	"name": "ds_RESTAPI",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ravi_datalakeLinkage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "pokemon.json",
+				"folderPath": "APIData",
+				"fileSystem": "sink"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

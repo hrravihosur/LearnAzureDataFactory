@@ -1,0 +1,15 @@
+{
+	"name": "AzureADFProCourse",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "efd7e528-664c-460d-bedb-96c3dd975f2e",
+		"tenantId": "8aa9471e-5e61-42ef-b9f7-f8ada59ada2f"
+	}
+}
